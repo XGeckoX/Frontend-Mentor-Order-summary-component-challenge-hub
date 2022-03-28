@@ -177,11 +177,14 @@ body {
 
 .my-links {
   font-size: 14px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 .link1 {
-  font-size: 14px font-weight:700;
+  font-size: 14px;
+  font-weight:700;
   color: hsl(245, 75%, 52%);
   text-decoration: none;
 }
@@ -191,7 +194,8 @@ body {
 }
 
 .link2 {
-  font-size: 14px font-weight:700;
+  font-size: 14px;
+  font-weight:700;
   color: hsl(245, 75%, 52%);
   text-decoration: none;
 }
