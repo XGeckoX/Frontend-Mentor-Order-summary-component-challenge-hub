@@ -203,3 +203,24 @@ body {
 .link2:hover {
   opacity: 0.6;
 }
+@media (max-width: 1440px) {
+  .background{
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+}
+@media (max-width: 600px) {
+  .background{
+    background-image: url("./images/illustration-hero.svg");
+    width: 100%;
+    height: 25%;
+  }
+  .main-card{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .intro{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 0 3rem 1.5rem 3rem;
+  }
+}
